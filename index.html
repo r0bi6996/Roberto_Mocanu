@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resurse de calcul si acces la internet</title>
+    
+   
+    <style>
+       
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #eef2f7;
+            color: #333;
+        }
+
+    
+        header {
+            background-color: #1e2a47;
+            color: white;
+            text-align: center;
+            padding: 40px 0;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin-top: 15px;
+        }
+
+      
+        section {
+            margin: 50px auto;
+            padding: 25px;
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+            max-width: 1000px;
+        }
+
+        section h2 {
+            font-size: 1.8em;
+            color: #1e2a47;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+      
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin-bottom: 12px;
+            font-size: 1.1em;
+        }
+
+   
+        a {
+            color: #1e2a47;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 30px 0;
+        }
+
+        table th, table td {
+            padding: 12px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+
+        table th {
+            background-color: #1e2a47;
+            color: white;
+        }
+
+        table td {
+            background-color: #f9f9f9;
+        }
+
+      
+        img {
+            max-width: 100%;
+            border-radius: 15px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+   
+        footer {
+            text-align: center;
+            background-color: #1e2a47;
+            color: white;
+            padding: 15px 0;
+            font-size: 1em;
+            box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.1);
+        }
+
+      
+        .slideshow-container {
+            position: relative;
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #e6f0f9;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .screenshot img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .slideshow-button {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(0, 0, 0, 0.6);
+            color: white;
+            padding: 10px;
+            font-size: 1.5em;
+            border: none;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .slideshow-button:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        .prev {
+            left: 10px;
+        }
+
+        .next {
+            right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+   
+    <header>
+        <h1>Structura retelei personale și accesul la internet</h1>
+        
+    </header>
+
+   
+    <section id="informatii-personale">
+        <h2>Informații personale</h2>
+        <p><strong>Nume:</strong> Mocanu Roberto</p>
+        <p><strong>Email:</strong> <a href="mailto:Mocanu.Da.Roberto@student.utcluj.ro">Mocanu.Da.Roberto@student.utcluj.ro</a></p>
+    </section>
+
+   
+    <section id="specificatii-tehnice">
+        <h2>Specificatii tehnice ale statiei principale de lucru</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Denumire componenta</th>
+                    <th>Producator</th>
+                    <th>Parametri</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Procesor</td>
+                    <td>Intel</td>
+                    <td>Core i5-9700K</td>
+                </tr>
+                <tr>
+                    <td>Memorie RAM</td>
+                    <td>Intel</td>
+                    <td>16 GB DDR4</td>
+                </tr>
+                <tr>
+                    <td>Placă video</td>
+                    <td>NVIDIA</td>
+                    <td>GeForce 1660 TI</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    
+    <section id="retea-personala">
+        <h2>Structura rețelei personale</h2>
+        <ul>
+            <li><strong>Adresa MAC:</strong> D8-43-AE-36-B0-7A</li>
+            <li><strong>Adresa IP:</strong> 192.160.0.1</li>
+            <li><strong>Debit la download:</strong> 100 Mbps</li>
+            <li><strong>Debit la upload:</strong> 100 Mbps</li>
+			<li><img src="poz.png" alt="structura retelei"></li>
+        </ul>
+    </section>
+
+    
+    <section id="monitorizare-resurse">
+        <h2>Utilizarea resurselor</h2>
+
+        <div class="slideshow-container">
+            <button class="slideshow-button prev" onclick="changeSlide(-1)">&#10094;</button>
+            <div class="screenshot">
+                <img id="slideImage" src="cpu.png" alt="Consumul CPU și memorie">
+            </div>
+            <button class="slideshow-button next" onclick="changeSlide(1)">&#10095;</button>
+        </div>
+    </section>
+
+   
+    <footer>
+        <p>&copy;Mocanu Roberto</p>
+    </footer>
+
+    
+    <script>
+        const images = ['cpu.png', 'memorie.png', 'servicii.png'];
+        let currentIndex = 0;
+
+        function changeSlide(direction) {
+            currentIndex = (currentIndex + direction + images.length) % images.length;
+            document.getElementById('slideImage').src = images[currentIndex];
+        }
+    </script>
+</body>
+</html>
